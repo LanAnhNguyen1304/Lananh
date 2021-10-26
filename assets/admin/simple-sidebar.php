@@ -43,6 +43,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Quản trị liên hệ
                             </a>
+                            <a class="nav-link" href="quan_tri_dich_vu.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Quản trị tư vấn
+                            </a>
                         </div>
                     </div>
                 </nav>

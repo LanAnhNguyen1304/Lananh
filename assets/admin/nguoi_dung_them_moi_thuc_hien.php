@@ -14,7 +14,7 @@
 
         //VIết câu lệnh truy vấn để thêm mới dữ liệu vào bảng TIN TỨC trong CSDL
         $sql = " INSERT INTO `tbl_nguoi_dung`(`ten_nguoi_dung`, `email`,`mat_khau`,`last_login`, `admin`)
-VALUE ('" .$ten_nguoi_dung."','".$email."','".$mat_khau."',current_timestamp(),'".$admin."')
+VALUES ('" .$ten_nguoi_dung."','".$email."','".$mat_khau."',current_timestamp(),'".$admin."')
         ";
         //echo $sql; exit();
         $noi_dung_nguoi_dung=mysqli_query($ketnoi,$sql);

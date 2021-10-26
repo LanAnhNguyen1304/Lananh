@@ -185,7 +185,7 @@
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="checker_btn">
-                                    <a href="#"><i class="linearicons-pulse"></i>Kiếm tra triệu chứng</a>
+                                    <a href="#">Kiếm tra triệu chứng</a>
                                 </li>
                             </ul>
                         </div>
@@ -228,55 +228,55 @@
         <section class="ftco-section contact-section">
       <div class="container mt-5">
         <div class="row block-9">
-                    <div class="col-md-4 contact-info ftco-animate">
-                        <div class="row">
-                            <div class="col-md-12 mb-4">
-                  <h2 class="h4">Thông tin liên hệ</h2>
+            <div class="col-md-4 contact-info ftco-animate">
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                      <h2 class="h4">Thông tin liên hệ</h2>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <p><span>Địa chỉ:</span> 36 Ngô Quyền, phường Hàng Bài,
+                            </br> quận Hoàn Kiếm, Hà Nội</p>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <p><span>Số điện thoại:</span> <a href="tel://1234567920">024 3825 5599</a></p>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <p><span>Email:</span> <a href="mailto:laptrinhweb@gmail.com">trungtamyteHK@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <p><span>Website:</span> <a href="#">.com</a></p>
+                    </div>
                 </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Địa chỉ:</span> 36 Ngô Quyền, phường Hàng Bài,
-                        </br> quận Hoàn Kiếm, Hà Nội</p>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Số điện thoại:</span> <a href="tel://1234567920">024 3825 5599</a></p>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Email:</span> <a href="mailto:info@yoursite.com">@gmail.com</a></p>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Website:</span> <a href="#">.com</a></p>
-                </div>
+            </div>
+            <div class="col-md-1"></div>
+              <div class="col-md-6 ftco-animate">
+                <form method="post" action="add_appointment.php">
+                    <div class="row">
+                        <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" name= "txtName" class="form-control" placeholder="Tên của bạn">
                         </div>
                     </div>
-                    <div class="col-md-1"></div>
-          <div class="col-md-6 ftco-animate">
-            <form method="post" action="add_contact.php">
-                <div class="row">
                     <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" name= "txtName" class="form-control" placeholder="Tên của bạn">
-                    </div>
+                        <div class="form-group">
+                          <input type="text" name= "txtEmail" class="form-control" placeholder="Email">
+                        </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name= "txtPhone" class="form-control" placeholder="Số điện thoại">
+                      </div>
+                      <div class="form-group">
+                        <textarea name="txtMessage" id="" cols="30" rows="7" class="form-control" placeholder="Phản hồi"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <input type="submit" value="Gửi phản hồi" class="btn btn-primary py-3 px-5">
+                      </div>
+                    </form>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" name= "txtEmail" class="form-control" placeholder="Email">
-                    </div>
-                    </div>
               </div>
-              <div class="form-group">
-                <input type="text" name= "txtPhone" class="form-control" placeholder="Số điện thoại">
-              </div>
-              <div class="form-group">
-                <textarea name="txtMessage" id="" cols="30" rows="7" class="form-control" placeholder="Phản hồi"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Gửi phản hồi" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+            </section>
         <!--================End Contact Area =================-->
 
         <!--================Map Area =================-->

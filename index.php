@@ -1327,7 +1327,8 @@
           <div class="col-lg-6">
             <div class="mail_box">
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="&#xe997; Nhập email của bạn"
+                <form method="pOST" action="#">
+                  <input type="text" class="form-control" placeholder="&#xe997; Nhập email của bạn"
                   aria-label="Recipient's username" aria-describedby="button-addon2" />
                 <div class="input-group-append">
                   <button class="btn btn-outline-secondary" type="button" id="button-addon2">
@@ -1340,6 +1341,7 @@
                 <span class="checkmark"></span>
               </label>
             </div>
+                </form>
           </div>
         </div>
       </div>
